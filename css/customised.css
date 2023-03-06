@@ -1,0 +1,10 @@
+.logo {
+    padding-top: 0.5em;
+}
+
+#nav-search {
+    position: absolute;
+    left: 23em;
+    bottom: 1em;
+    width: 20em;
+}
