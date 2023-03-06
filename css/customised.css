@@ -1,0 +1,23 @@
+.navbar {
+    position: relative;
+}
+
+#nav-search {
+    position: absolute;
+    left: 30em;
+    top: 1em;
+}
+
+
+
+/**
+ Media Queries should always go to the
+ bottom
+ */
+
+/** This makes navigation search appear on mobile and tablet views **/
+@media only screen and (max-width: 850px) {
+    #nav-search {
+        position: unset;
+    }
+}
