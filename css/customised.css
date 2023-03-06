@@ -8,3 +8,24 @@
     bottom: 1em;
     width: 20em;
 }
+
+.btn-circle {
+    border-radius: 0.5em !important;
+}
+
+.btn-circle:hover {
+    color: white !important;
+}
+
+.borders {
+    border-left-color: transparent !important;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+}
+
+#car-search {
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

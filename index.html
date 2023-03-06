@@ -177,6 +177,115 @@
     <!-- Carousel Start -->
     <div class="container-fluid mb-3">
         <div class="row px-xl-5">
+            <div class="col-lg-4">
+                <form id="car-search">
+                    <!-- Heading -->
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="text-center">Find your perfect car</h5>
+                        </div>
+                    </div>
+                    <!-- Postcode & Region -->
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="control-group">
+                                <input type="text" class="form-control btn-circle" id="postcode" placeholder="Postcode" required="required" data-validation-required-message="Please enter your email" /><p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="control-group">
+                                <select class="form-control btn-circle" id="region">
+                                    <option>National</option>
+                                    <option>Local</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Make & Model -->
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="control-group">
+                                <div class="control-group">
+                                    <select class="form-control btn-circle" id="make">
+                                        <option>Make</option>
+                                        <option>Local</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="control-group">
+                                <select class="form-control btn-circle" id="model">
+                                    <option>Model</option>
+                                    <option>Local</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cash or Finance -->
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="control-group">
+                                <button type="button" class="btn btn-outline-primary btn-block text-dark btn-circle">Cash</button>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="control-group">
+                                <button type="button" class="btn btn-outline-primary btn-block text-dark btn-circle">Finance</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Minimum Price & Maximum Price -->
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="control-group">
+                                <div class="control-group">
+                                    <select class="form-control btn-circle" id="make">
+                                        <option>Min Price</option>
+                                        <option>Local</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="control-group">
+                                <select class="form-control btn-circle" id="model">
+                                    <option>Max Price</option>
+                                    <option>Local</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Search -->
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="control-group">
+                                <button type="button" class="btn btn-primary btn-circle btn-block">
+                                    <span class="text-light">Search</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cash or Finance -->
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="control-group">
+                                <button type="button" class="btn btn-outline-primary btn-block text-dark btn-circle borders">Reset Filters</button>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="control-group">
+                                <button type="button" class="btn btn-outline-primary btn-block text-dark btn-circle borders">More Options</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
             <div class="col-lg-8">
                 <div id="header-carousel" class="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -215,24 +324,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4"> 
-                <div class="product-offer mb-30" style="height: 200px;">
-                    <img class="img-fluid" src="img/offer-1.jpg" alt="">
-                    <div class="offer-text">
-                        <h6 class="text-white text-uppercase">Save 10%</h6>
-                        <h3 class="text-white mb-3">Special Offer</h3>
-                        <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="shop.html">Shop Now</a>
-                    </div>
-                </div>
-                <div class="product-offer mb-30" style="height: 200px;">
-                    <img class="img-fluid" src="img/offer-2.jpg" alt="">
-                    <div class="offer-text">
-                        <h6 class="text-white text-uppercase">Save 15%</h6>
-                        <h3 class="text-white mb-3">Special Offer</h3>
-                        <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="shop.html">Shop Now</a>
                     </div>
                 </div>
             </div>
